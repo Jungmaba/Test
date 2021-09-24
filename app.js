@@ -1,1 +1,9 @@
-console.log("asd");
+class App {
+    constructor() {
+
+    }
+}
+
+globalThis.onload = () => {
+    new App();
+}
